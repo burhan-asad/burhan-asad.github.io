@@ -1,0 +1,134 @@
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.12em;
+    background-image: url(https://wallpaperaccess.com/full/9372654.jpg);
+    background-size: cover;
+    color:white;
+    margin:0;
+}
+
+.mainText{
+    text-align: center;
+    font-style: italic;
+    margin-top: -0.45em;
+    margin-bottom: 30px;    
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+form{
+    margin:auto;
+    max-width:60%;
+    min-width:40%;
+    background-color: #0B0E16;
+    opacity:80%;
+    border-radius: 4px;
+    padding-top:2em;
+    padding-bottom:2em;
+    padding-right:0.6em;
+}
+
+fieldset{
+    border:none;
+    padding-left:2.5em;
+    padding-right:2.5em;
+}
+
+input{
+    width:100%;
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 1.4em;
+    padding-left:0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+select{
+    width:100%;
+    font-size: 16px;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+    padding-left:0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: grey;
+    margin-bottom: -20em;
+}
+
+.inline{
+    width:unset;
+    display:inline;
+    margin-right:0.4em;
+    margin-bottom: 0.6em;
+}
+
+input[type="radio"]{
+    transform: scale(1.5);
+}
+
+.inline-last{
+    width:unset;
+    display:inline;
+    margin-right:0.4em;
+    margin-bottom: 0.9em;
+}
+
+legend{
+    padding-top:1em;
+}
+
+.checkline{
+    width:unset;
+    display:inline;
+    margin-right:0.4em;
+    margin-bottom: 0.8em;
+    transform: scale(1.5);
+}
+
+textarea{
+    width:100%;
+    font-size: 16px;
+    color:  grey;
+    padding-top:0.4em;
+    padding-left:0.4em;
+    margin-top:0.5rem;
+}
+
+.submission{
+    width:90%;
+    min-width:30%;
+    font-size: 16px;
+    color:white;
+    background-color: #483D8B;
+    border: #483D8B;    
+    font-size: 1.1rem;
+    border-radius: 2px;
+    padding-top:1em;
+    padding-bottom:1em;
+    display:block;
+    margin:1em auto;
+}
+
+.smallText{
+    font-size:0.8em;
+    display:inline;
+  }
+  
+.normalText{
+    display:inline;
+}
+
+#name,#email,#number,#suggestions{
+    color:grey;
+}
